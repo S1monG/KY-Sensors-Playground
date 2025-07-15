@@ -3,7 +3,7 @@
 module buzzer_KY006 (
     input clk,
     input btn1,
-    output wire IOB15B,
+    output reg IOB15B,
     output wire [5:0] led
 );
     // Clock Freq = 27MHz
