@@ -1,4 +1,4 @@
-module top (
+module button (
     input btn1,
     input btn2,
     output wire [5:0] led
